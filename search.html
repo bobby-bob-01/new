@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecipeQuest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+  <body class="main">
+    <header class="row container">
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>RecipeQuest</a>
+      <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a class="active" href="./search.html">Search</a>
+        <a href="./about.html">AboutUs</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="icons">
+        <a href="#">find Your taste</a>
+      </div>
+    </header>
+    <section class="hero1" aria-label="banner">
+      <div class="banner-card">
+        <h1 class="displya-large" style="font-size: 50px">
+          what do you want to search???
+        </h1>
+        <div class="search-wrapper" data-search-form>
+          <span class="fas fa-utensils leading-icon" aria-hidden="true"></span>
+          <form class="srch-form">
+            <input
+              type="search"
+              name="search"
+              aria-label="search recipes"
+              placeholder="search recipes..."
+              class="search-field body-medium"
+              data-search-field />
+            <button class="search-submit" aria-label="submit" data-search-btn>
+              <span class="fas fa-search" aria-hidden="true"></span>
+            </button>
+          </form>
+        </div>
+        <p class="label-medium">
+          search any recipe like: burger, biryani, sandwich....
+        </p>
+      </div>
+    </section>
+    <div class="search-result">
+      
+      <!-- <div class="srch-item">
+            <img src="./reciepe.jpg" alt="reciepe" />
+            <div class="flex-container">
+              <h1 class="title">this is reciepe</h1>
+              <a class="view-button" href="#">view reciepe</a>
+            </div>
+            <p class="item-data">calories: 120</p>
+            <p class="health-fact">health facts: ${result.recipe.healthLabels}</p>
+          </div> -->
+    </div>
+    <div class="menu">
+      <div class="box1 box">
+        <div class="box-cont">
+          <h2>RECIPES</h2>
+          <div class="box-img1"></div>
+        </div>
+      </div>
+      <div class="box2 box">
+        <div class="box-cont">
+          <h2>NUTRITION</h2>
+          <div class="box-img2"></div>
+        </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-cont">
+          <h2>HEALTH TIPS</h2>
+          <div class="box-img3"></div>
+        </div>
+      </div>
+      <div class="box4 box">
+        <div class="box-cont">
+          <h2>EXPLORE</h2>
+          <div class="box-img4"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot">
+        <div class="logo1"></div>
+        <div class="name txt">
+          <a>RecipeQuest</a>
+          <p>
+            is a comprehensive website designed to provide users with detailed
+            information about recipes, including nutrition facts, ingredient
+            lists, and calorie counts. <br />
+            It serves as a valuable resource for individuals interested in
+            maintaining a healthy lifestyle, fitness enthusiasts, and nutrition
+            professionals.
+          </p>
+        </div>
+        <div class="cont txt"><a href="./contact.html">contact us</a></div>
+      </div>
+      <div class="back"><a href="#">⇈CLICK HERE TO GET TO TOP⇈</a></div>
+    </footer>
+    <script src="./js.js"></script>
+  </body>
+</html>
